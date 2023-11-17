@@ -4,7 +4,8 @@
     <img src="https://i.pinimg.com/564x/6c/fa/11/6cfa118a8c8e55693d5cdd7ed95e8e95.jpg" alt="plant">
     <article>
         <h3>Plantisus</h3>
-        <div><span>icon</span><span>icon</span></div>
+        <div><span>icon</span>
+            <a href="/"><span>icon</span></a></div>
     </article>
 </div>
 
