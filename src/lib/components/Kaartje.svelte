@@ -4,14 +4,7 @@
     console.log(data)
 </script>  
 
-<!-- <div class="wrapper">
-    <img src="https://i.pinimg.com/564x/6c/fa/11/6cfa118a8c8e55693d5cdd7ed95e8e95.jpg" alt="plant">
-    <article>
-        <h3>Plantisus</h3>
-        <div><span>icon</span>
-            <a href="/"><span>icon</span></a></div>
-    </article>
-</div> -->
+
 
 
 <section class="wrapper">
@@ -41,9 +34,6 @@
         flex-wrap: wrap;
         flex-direction: row;
         gap: 2rem;
-        width: 15rem;
-        height: auto;
-       
     }
 
     img{
@@ -54,6 +44,8 @@
     article{
         background-color: #4E7141;
         padding: 10px;
+        width: 15rem;
+        height: 20rem;
     }
 
     h3{
