@@ -4,22 +4,22 @@
     console.log(data)
 </script>  
 
-<div class="wrapper">
+<!-- <div class="wrapper">
     <img src="https://i.pinimg.com/564x/6c/fa/11/6cfa118a8c8e55693d5cdd7ed95e8e95.jpg" alt="plant">
     <article>
         <h3>Plantisus</h3>
         <div><span>icon</span>
             <a href="/"><span>icon</span></a></div>
     </article>
-</div>
+</div> -->
 
 
-<!-- <section class="wrapper">
+<section class="wrapper">
 	<!-- hier komen de kaartjes -->
-	<!-- {#each data.stekjes as stekje}
+	{#each data.stekjes as stekje}
 			<a href={stekje.slug}>
 				<article class={stekje.categories[0].naam}>
-					<img src={stekje.fotos[0].url} alt="foto van {stekje.naam}" />
+					<img src={stekje.fotos[0].url} alt="foto van {stekje.naam}"  width="15rem" height="20rem"/>
 					<div>
 						<h3>{stekje.naam}</h3>
 						<svg class="info" width="35" height="35" viewBox="0 0 50 50" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -29,24 +29,28 @@
 				</article>
 			</a>
 	{/each}
-</section> -->
- -->
+</section>
+
+ 
 
 <style>
 
+
     .wrapper{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2rem;
         width: 15rem;
         height: auto;
-        border: solid #4E7141 2px;
-        border-radius: 2px;
+       
     }
 
-    .wrapper img{
+    img{
         width: 15rem;
         height: 15rem;
     }
+
     article{
         background-color: #4E7141;
         padding: 10px;
@@ -57,12 +61,6 @@
         color: aliceblue;
         font-size: 24px;
         margin-top: -0.3rem;
-    }
-
-    article div{
-        display: flex;
-        justify-content: space-between;
-        padding: 0rem 1rem 0rem 1rem;
     }
 
 </style>
