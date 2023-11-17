@@ -43,9 +43,9 @@
 
     article{
         background-color: #4E7141;
-        padding: 10px;
+        padding: 5px;
         width: 15rem;
-        height: 20rem;
+        height: 22rem;
     }
 
     h3{
