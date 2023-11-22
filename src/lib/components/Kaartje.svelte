@@ -4,7 +4,14 @@
     console.log(data)
 </script>  
 
-
+<!-- <div class="wrapper">
+    <img src="https://i.pinimg.com/564x/6c/fa/11/6cfa118a8c8e55693d5cdd7ed95e8e95.jpg" alt="plant">
+    <article>
+        <h3>Plantisus</h3>
+        <div><span>icon</span>
+            <a href="/"><span>icon</span></a></div>
+    </article>
+</div> -->
 
 
 <section class="wrapper">
@@ -34,6 +41,9 @@
         flex-wrap: wrap;
         flex-direction: row;
         gap: 2rem;
+        width: 15rem;
+        height: auto;
+       
     }
 
     img{
@@ -43,9 +53,13 @@
 
     article{
         background-color: #4E7141;
+<<<<<<< HEAD
         padding: 5px;
         width: 15rem;
         height: 22rem;
+=======
+        padding: 10px;
+>>>>>>> parent of cc658dd (Update Kaartje.svelte)
     }
 
     h3{
